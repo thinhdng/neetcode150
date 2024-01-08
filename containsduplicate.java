@@ -7,6 +7,6 @@ class Solution {
         }
         return false;
 
-        //time complexity: O(nlgn) => sorting takes nlgn time
+        //time complexity: O(n + nlgn) => sorting takes nlgn time
     }
 }
