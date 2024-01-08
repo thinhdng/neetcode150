@@ -1,0 +1,3 @@
+keys and values can be anything, long as they are consistent(java) -> (string, int), (string, list<string>)
+keys and values can be anything in python. 
+to add a key and value pair, use the put() method (java)
