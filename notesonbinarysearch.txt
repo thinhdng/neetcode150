@@ -1,0 +1,18 @@
+is used to find an element position in a sorted array  (can't be used on unsorted arrays)
+2 ways to implement:
+    iterative
+    recursive
+
+iterative pseudocode:
+do until the pointers low and high meet each other.
+    mid = (low + high)/2
+    if (x == arr[mid])
+        return mid
+    else if (x > arr[mid]) // x is on the right side
+        low = mid + 1
+    else                       // x is on the left side
+        high = mid - 1
+
+time complexity of binarySearch:
+best case: O(1)
+average case and worst case: O(lgn)
